@@ -17,6 +17,7 @@ grid-template-columns: repeat(auto-fit);
 padding:10px;
 grid-gap: 40px;
 max-width: 900px;
+   margin-bottom:8px;
 }
 .card{
 background-color: beige;

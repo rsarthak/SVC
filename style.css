@@ -108,13 +108,7 @@ font-family: 'Times New Roman', Times, serif;
 html{
     scroll-behavior: smooth;
 }
-@media screen and (min-width:900px){
-.container img{
-    height: 70%;
-    width: 70%;
-    clip-path: circle();
-}    
-}
+
 .cards h3{
     padding:0;
     text-align: center;
@@ -148,7 +142,12 @@ html{
     margin-bottom: 4px;
     color:beige;
 }
-
+.container img{
+    height: 70%;
+    width: 60%;
+   margin-left: 100px;
+   margin-top:56px;
+}  
 .cards p{
   font-size: 23px;
 margin-top:12px;
@@ -158,7 +157,7 @@ margin-bottom:1px;
   text-align: center;
   color:black;
 }
-@media  screen and (max-width:1200px) and (min-width:500px){
+@media  screen and (max-width:1200px) and (min-width:400px){
     #pop img{
    object-fit: cover;
     }
@@ -179,7 +178,12 @@ margin-bottom:1px;
 .cards{
     max-width: 290px;
 }
-   .container img{
-      width:100%;
-      height:100%;
+
+    .container img{
+        height: 70%;
+        width: 60%;
+      margin-left: 50px;
+      margin-top: 40px;
+    }    
+   
 }

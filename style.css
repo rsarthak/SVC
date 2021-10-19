@@ -156,3 +156,22 @@ margin-bottom:1px;
   text-align: center;
   color:black;
 }
+@media  screen and (max-width:1200px) and (min-width:500px){
+    #pop img{
+   object-fit: cover;
+    }
+    .details>h3{
+        color:black;
+        font-weight:600;
+    font-size:18px;
+    margin:10px 0 15px 0;
+    }
+    .details>p{
+        color: black;
+        font-size:15px;
+        line-height: 30px;
+        font-weight: 450;
+        text-align: justify;
+
+}
+}

@@ -145,8 +145,9 @@ html{
 .container img{
     height: 70%;
     width: 60%;
-   margin-left: 100px;
+    margin-left: 190px;
    margin-top:56px;
+   margin-bottom: 14px;
 }  
 .cards p{
   font-size: 23px;

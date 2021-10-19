@@ -6,16 +6,17 @@ box-sizing: border-box;
 }
 body{
    background-color: #151320;
-   
+    height:vh;
 display:grid;
 place-items: center center;
 font-family: 'poppins',sans-serif;
 }
 .cards{
-display: grid;
+display:flex-box;
 grid-template-columns: repeat(auto-fit);
 padding:10px;
 grid-gap: 40px;
+max-width: 900px;
 }
 .card{
 background-color: beige;
@@ -38,6 +39,7 @@ clip-path:polygon(0 0,100% 0,100% 85% 0 100%);
         width: 100%;
         height:100px;
     }
+    
     
 }
 .container:after{
@@ -108,8 +110,8 @@ html{
 }
 @media screen and (min-width:900px){
 .container img{
-    height: 75%;
-    width: 75%;
+    height: 70%;
+    width: 70%;
     clip-path: circle();
 }    
 }
@@ -118,7 +120,7 @@ html{
     text-align: center;
     justify-content: center;
     font-family: 'Lora', serif;;
-    font-size: 35px;
+    font-size: 2px;
     font-weight: 200;
     margin-top:4px;
     margin-bottom: 4px;
@@ -173,5 +175,8 @@ margin-bottom:1px;
         font-weight: 450;
         text-align: justify;
 
+}
+.cards{
+    max-width: 455px;
 }
 }

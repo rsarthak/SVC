@@ -136,10 +136,6 @@ background-size: 1000px 100px;
                 clip-path: circle();
         
             }
- <ul class="social-media">
-        <li><i class="fa fa-youtube"></i></li>
-        
-      </ul>
 }
   #home h2{
     color: beige;
@@ -804,47 +800,39 @@ padding: 30px;
   }
 }
 
-a {
-    text-decoration: none;
-    color: maroon;
-}
-p > a:hover{
-    color: #d9d9d9;
-    text-decoration:  underline;
-}
-
-.foot-social-icons {
-    width: 30px;
-    display:block;
-    margin: 0 auto;
+.social-media{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  justify-content:center;
   align-items:center;
-  margin-top:5px;
-}
-.social-icon {
-    color: rgb(202, 202, 40);
-}
-ul.social-icons {
-    margin-top: 8px;
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
-.social-icons a {
-    color: beige;
-    text-decoration: none;
+text-align:center;
 }
 
-.fa-youtube {
-    padding:10px 10px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: transparent;
+.social-media li{
+  display: inline-block;
 }
-.fa-youtube:hover {
-    background-color: maroon;
+
+.social-media li .fa{ 
+  background: beige;
+  color: #262626;
+  width: 35px;
+  height: 30px;
+  border-radius: 80%;
+  text-align:center;
+  line-height:24px;
+  transition: all .6s ease;
 }
+
+.social-media .fa:hover {
+  transition: all .3s ease;
+  box-shadow: 5px 5px 5px #000;
+  transform: translateY(-5px);
+}
+
+
+.social-media .fa.fa-youtube:hover{
+  background:rgb(255, 0, 0);
+  color:#fff;
+}
+

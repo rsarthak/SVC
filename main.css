@@ -136,50 +136,10 @@ background-size: 1000px 100px;
                 clip-path: circle();
         
             }
-a {
-    text-decoration: none;
-    color: maroon;
-}
-p > a:hover{
-    color: #d9d9d9;
-    text-decoration:  underline;
-}
-
-.foot-social-icons {
-    width: 30px;
-    display:block;
-    margin: 0 auto;
-  align-items:center;
-  margin-top:3px;
-}
-.social-icon {
-    color: rgb(202, 202, 40);
-}
-ul.social-icons {
-    margin-top: 8px;
-}
-.social-icons li {
-    vertical-align: top;
-    display: inline;
-    height: 100px;
-}
-.social-icons a {
-    color: beige;
-    text-decoration: none;
-}
-
-.fa-youtube {
-    padding:8px 8px;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-    background-color: transparent;
-}
-.fa-youtube:hover {
-    background-color: maroon;
-}  
+ <ul class="social-media">
+        <li><i class="fa fa-youtube"></i></li>
+        
+      </ul>
 }
   #home h2{
     color: beige;

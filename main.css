@@ -65,7 +65,7 @@ background-size: 1000px 100px;
                 justify-content: center;
                 align-items: center;
                 text-align: justify;
-                font-size: 16px;
+                font-size: 14px;
                 font-weight: 400;
                 padding: 15px 18px;
                 margin-left: 27px;
@@ -95,28 +95,28 @@ background-size: 1000px 100px;
             color:beige;
           }
           .details h5{
-            margin:27px 27px;
+            margin:3px 27px;
             color:beige;
           text-align: justify;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 400;
           }
           .detail h5{
             margin-left: 54px;
             margin-right: 54px;
-          
+          margin-top:3px;
             color:beige;
           text-align: justify;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 400;
           }
           .detais h5{
             margin-left: 54px;
             margin-right: 54px;
-          
+          margin-top:3px;
             color:beige;
           text-align: justify;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 400;
           }
           .ty{

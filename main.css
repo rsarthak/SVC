@@ -24,7 +24,7 @@ background-size: 1000px 100px;
 
 
 
-@media  screen and (max-width:1200px) and (min-width:500px){
+@media  screen and (max-width:1200px) and (min-width:300px){
 
   #home h2{
     color: beige;
@@ -136,41 +136,7 @@ background-size: 1000px 100px;
                 clip-path: circle();
         
             }
-	.social-media{
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  justify-content:center;
-  align-items:center;
-text-align:center;
-}
 
-.social-media li{
-  display: inline-block;
-}
-
-.social-media li .fa{ 
-  background: beige;
-  color: #262626;
-  width: 35px;
-  height: 30px;
-  border-radius: 80%;
-  text-align:center;
-  line-height:24px;
-  transition: all .6s ease;
-}
-
-.social-media .fa:hover {
-  transition: all .3s ease;
-  box-shadow: 5px 5px 5px #000;
-  transform: translateY(-5px);
-}
-
-
-.social-media .fa.fa-youtube:hover{
-  background:rgb(255, 0, 0);
-  color:#fff;
-}
 }
   #home h2{
     color: beige;
@@ -835,39 +801,4 @@ padding: 30px;
   }
 }
 
-.social-media{
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  justify-content:center;
-  align-items:center;
-text-align:center;
-}
-
-.social-media li{
-  display: inline-block;
-}
-
-.social-media li .fa{ 
-  background: beige;
-  color: #262626;
-  width: 35px;
-  height: 30px;
-  border-radius: 80%;
-  text-align:center;
-  line-height:24px;
-  transition: all .6s ease;
-}
-
-.social-media .fa:hover {
-  transition: all .3s ease;
-  box-shadow: 5px 5px 5px #000;
-  transform: translateY(-5px);
-}
-
-
-.social-media .fa.fa-youtube:hover{
-  background:rgb(255, 0, 0);
-  color:#fff;
-}
 

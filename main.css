@@ -482,8 +482,9 @@ color: beige;
     user-select: none;
   }
   .der{
-	  width:240px;
-	  margin-top:100px;
+	  width:280px;
+	  
+	  margin-top:50px;
 }
   .header .menu-icon .navicon {
     background: #333;

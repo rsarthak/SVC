@@ -13,6 +13,36 @@ document.getElementById("read").innerHTML="Read More";
 i=0;
 }
 }
+var eer=0;
+function re(){
+if(!eer){
+    document.getElementById("morm").style.display="inline";
+    document.getElementById("dotm").style.display="none";
+document.getElementById("re").innerHTML="Read Less";
+eer=1;
+}
+else{
+    document.getElementById("morm").style.display="none";
+    document.getElementById("dotm").style.display="inline";
+document.getElementById("re").innerHTML="Read More";
+eer=0;
+}
+}
+var wer=0;
+function rew(){
+if(!wer){
+    document.getElementById("morer").style.display="inline";
+    document.getElementById("doter").style.display="none";
+document.getElementById("rew").innerHTML="Read Less";
+wer=1;
+}
+else{
+    document.getElementById("morer").style.display="none";
+    document.getElementById("doter").style.display="inline";
+document.getElementById("rew").innerHTML="Read More";
+wer=0;
+}
+}
 var e=0; 
 function reads(reads){
 if(!e){

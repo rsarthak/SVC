@@ -20,7 +20,7 @@ git@github.com:rsarthak/SVC.git
 4. Now, after this you will have all the files in your pc and you can modify it if you want.
 
     
-## Screenshots
+## Screenshot
 
 ![Website Screenshot](website.png)
 
@@ -29,5 +29,7 @@ git@github.com:rsarthak/SVC.git
 
 HTML,CSS and Javascript.
 
+## LIVE
+https://vrittant-svc.netlify.app/
 
 
